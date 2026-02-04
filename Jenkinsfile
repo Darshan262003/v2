@@ -7,9 +7,8 @@ pipeline {
 	
 	stages {
 		stage('checkout') {
-			
 				git url:'https://github.com/Darshan262003/v2.git', branch:'main' 
-			}
+		}
 		
 		
 		stage('Build Docker Image') {
